@@ -21,14 +21,7 @@
                 <div class="userinfo">
                     <a id="name"></a>  
                     <a id="email"></a>
-                    <a>
-                      <p style="font-weight: bold; padding-bottom: 10px;">Total Macros :</p>
-                      <p id="calories"></p>
-                      <p id="protein"></p>
-                      <p id="fats"></p>
-                      <p id="carbohydrates"></p>
-                    </a>
-                    <a href="track.html">Track  <i class="fa fa-list-ul"></i></a>
+                    <a href="dashboard.html">Menu  <i class="fas fa-utensils"></i></a>
                     <a onclick="logout()">Logout  <i class="fa fa-sign-out-alt"></i></a>
                 </div>
             </div>
@@ -37,26 +30,44 @@
     </div>
 
     <div class="main-body">
-      <div class="top-text">
-        <h1 id="welcome" class="welcome">Welcome </h1><br><br>
-        <h3 id="day"></h3>
-      </div>
-      <div class="rectangular-bar">
-        <button class="bar-button">Breakfast</button>
-        <button class="bar-button">Lunch</button>
-        <button class="bar-button">Snacks</button>
-        <button class="bar-button">Dinner</button>
-      </div>
+        <div class="container">
+            <div class="heading">
+                Your Macros Today
+            </div>
+            <div class="counter-container">
+                <div class="counter">
+                    <h3 class="count" id="Calories">0</h3>
+                    <h6>Calories</h6>
+                </div>
+                <div class="counter">
+                    <h3 class="count" id="Protein">0</h3>
+                    <h6>Protein</h6>
+                </div>
+                <div class="counter">
+                    <h3 class="count" id="Carbohydrates">0</h3>
+                    <h6>Carbohydrates</h6>
+                </div>
+                <div class="counter">
+                    <h3 class="count" id="Fats">0</h3>
+                    <h6>Fats</h6>
+                </div>
+            </div>
+        </div>
+        <div class="rectangular-bar">
+            <button class="bar-button">Breakfast</button>
+            <button class="bar-button">Lunch</button>
+            <button class="bar-button">Snacks</button>
+            <button class="bar-button">Dinner</button>
+        </div>
       <div class="menu-list" id="food-menu">
         <div id="Breakfast" class="meal"></div>
         <div id="Lunch" class="meal"></div>
         <div id="Snacks" class="meal"></div>
         <div id="Dinner" class="meal"></div>
       </div>
-      <div id="custom-alert" style="display: none;">
-      </div>
+      <div id="custom-alert" style="display: none;"></div>
       <div class="go-to-track">
-        <button class="button-5" role="button" onclick="window.location.href = 'track.html'">Track Now <i class="fa fa-list-ul"></i></button>
+        <button class="button-5" role="button" onclick="window.location.href = 'dashboard.html'">Menu <i class="fas fa-utensils"></i></button>
       </div>
     </div>
     <div class="footer">
@@ -71,7 +82,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-storage.js"></script>
 
     <!-- Your separate script.js file -->
-    <script src="js/dashboard.js"></script>
+    <script src="js/track.js"></script>
     <script>
         function toggleDropdown() {
           var x = document.getElementById("dropdown");

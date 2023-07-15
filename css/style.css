@@ -27,7 +27,6 @@ body{
 .logo h1{
     color: rgb(63,81,181);
     font-size: 30px;
-    font-weight: 5;
     display: inline-block;
   vertical-align: middle;
 }
@@ -63,8 +62,8 @@ body{
     display: none;
     position: fixed;
     width: 300px;
-    margin-left:-300px;
-    margin-top: 50px;
+    margin-left:-260px;
+    margin-top: 20px;
     float: right;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -109,7 +108,6 @@ body{
 }
 
 .description h1 {
-    font-weight: 5;
     line-height: 3rem;
 }
 
@@ -138,7 +136,6 @@ body{
   
 .feature  h2 {
     font-size: 24px;
-    font-weight: 5;
     color: #3366cc;
   }
   
@@ -201,6 +198,7 @@ body{
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: baseline;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   }
   
   .button-5:hover,
@@ -216,12 +214,12 @@ body{
   }
 
   .top-text h1{
-    font-weight: 5;
     font-size: 35px;
   }
 
   .top-text h3{
-    font-weight: 6;
+    font-weight: lighter;
+    line-height: 30px;
   }
 
   .rectangular-bar {
@@ -260,24 +258,156 @@ body{
     box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.2);
   }
 
-  .menu-list p {
+  .food-item {
     font-size: 20px;
     padding: 20px;
     border-bottom : 1px solid lightgray;
   }
 
+  .food-item i {
+    position: relative;
+    font-size: 30px;
+    float: right;
+    color: #fa6400;
+    margin-top: -25px;
+    margin-right: 20px;
+  }
+
+  .nutri-info {
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .nutri-info p {
+    color: rgb(98, 97, 97);
+    font-size: 17px;
+  }
+
+  .number-input {
+    text-align: center;
+  }
+  
+  .number-input input {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+  }
+  
+  .number-input button {
+    height: 33px;
+    background-color: #fa6400;
+    border: none;
+    color: white;
+    width: 30px;
+  }
+
+  .number-input button:focus,
+  .number-input button:hover {
+    background-color: #fa4300;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.track-button {
+  margin: auto;
+  padding-top: 20px;
+  text-align:  center;
+}
+
+.track-button i {
+  font-size: 20px;
+  color: white;
+  margin: auto;
+}
+
   .menu-subcat {
+    font-size: 20px;
+    padding: 20px;
+    border-bottom : 1px solid lightgray;
     color: rgb(63,81,181);
     font-weight: bold;
   }
-  
+  #custom-alert {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } 
+  .go-to-track {
+    position: fixed;
+    top: 90%;
+    right: 5%;
+  } 
+
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 5rem 0;
+}
+
+.counter-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Display as 4 columns on big screens */
+  grid-gap: 10px; /* Adjust the gap between items as needed */
+}
+
+.counter {
+  text-align: center;
+}
+
+.container h3 {
+  color: #fa6400;
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.container h6 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* Responsive styles for medium screens */
+@media screen and (max-width: 768px) {
+  .counter-container {
+    grid-template-columns: repeat(2, 1fr); /* Display as 2 columns on medium screens */
+  }
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 480px) {
+  .counter-container {
+    grid-template-columns: 1fr; /* Display as 1 column on small screens */
+    grid-template-rows: repeat(4, 1fr); /* Display as 4 rows on small screens */
+  }
+}
 
 .footer {
     left: 0;
     bottom: 0;
-    background-color: #fa6400;
+    background-color: #f9f9f9;
     padding: 30px;
     text-align: center;
-    color: white;
+    color: black;
 }
   
