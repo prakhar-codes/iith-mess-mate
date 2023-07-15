@@ -1,314 +1,313 @@
 * {
-    margin: 0px;
-    padding: 0px;
- }
+  margin: 0px;
+  padding: 0px;
+}
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sticky-bar {
-    z-index: 10;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    margin-left: auto;
-    padding-top: 10px;
-    width: 100%;
-    height: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  margin-left: auto;
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 
 .logo {
-    position: relative;
-    margin-top: 0;
-    margin-left: 2%;
+  position: relative;
+  margin-top: 0;
+  margin-left: 2%;
 }
-.logo h1{
-    color: rgb(63,81,181);
-    font-size: 30px;
-    display: inline-block;
+.logo h1 {
+  color: rgb(63, 81, 181);
+  font-size: 30px;
+  display: inline-block;
   vertical-align: middle;
 }
 
 .logo img {
-    margin-top: -5px;
-    height: 50px;
-    float: left;
+  margin-top: -5px;
+  height: 50px;
+  float: left;
   vertical-align: middle;
 }
 
 .dropdown {
-    position: relative;
-    float: right;
-    text-align: center;
-  }
-  
-  .dropbtn {
-    cursor: pointer;
-    background-color: white;
-    position: relative;
-    padding-right: 18px;
-    border: none;
-  }
+  position: relative;
+  float: right;
+  text-align: center;
+}
 
-  .dropbtn i {
-    font-size: 35px;
-    color: #fa6400;
+.dropbtn {
+  cursor: pointer;
+  background-color: white;
+  position: relative;
+  padding-right: 18px;
+  border: none;
+}
 
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: fixed;
-    width: 300px;
-    margin-left:-260px;
-    margin-top: 20px;
-    float: right;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
+.dropbtn i {
+  font-size: 35px;
+  color: #fa6400;
+}
 
-  .dropdown-content a:hover {
-    background-color: lightgray;
-  }
+.dropdown-content {
+  display: none;
+  position: fixed;
+  width: 300px;
+  margin-left: -260px;
+  margin-top: 20px;
+  float: right;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-  .dropdown-content .userinfo {
-    text-align: left;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+.dropdown-content .userinfo {
+  text-align: left;
+}
 
 .link-container {
-    text-decoration: none;
-    color: inherit;
-    background: none;
-    border: none;
-  }
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+}
 
 .main-body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 .banner {
-    width: 100%;
+  width: 100%;
 }
 
 .description {
-    max-width: 70%;
-    padding: 50px;
-    margin: auto;
-    text-align: center;
+  max-width: 70%;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
 }
 
 .description h1 {
-    line-height: 3rem;
+  line-height: 3rem;
 }
 
 .description h3 {
-    font-size: 25px;
-    line-height: 2rem;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  font-size: 25px;
+  line-height: 2rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .description p {
-    font-size: 20px;
-    color: #666666;
-    text-align: left;
-    line-height: 1.5rem;
+  font-size: 20px;
+  color: #666666;
+  text-align: left;
+  line-height: 1.5rem;
 }
 
 .features h1 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .feature {
-    text-align: left;
-    margin-bottom: 30px;
-  }
-  
-.feature  h2 {
-    font-size: 24px;
-    color: #3366cc;
-  }
-  
-.feature  p {
-    font-size: 18px;
-    color: #666666;
-    line-height: 1.5;
-  }
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.feature h2 {
+  font-size: 24px;
+  color: #3366cc;
+}
+
+.feature p {
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.5;
+}
 
 .box {
-    padding:50px;
-    text-align: center;
-    max-width: 70%; /*500px*/
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: 1px solid rgb(63,81,181);
-    border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  max-width: 70%; /*500px*/
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid rgb(63, 81, 181);
+  border-radius: 10px;
 }
 
 .box p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .login-box {
-    padding:50px;
-    text-align: center;
-    max-width: 50%;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: 1px solid rgb(63,81,181);
-    border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid rgb(63, 81, 181);
+  border-radius: 10px;
 }
 
 .login-box p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .button-5 {
-    align-items: center;
-    background-clip: padding-box;
-    background-color: #fa6400;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    line-height: 1.25;
-    min-height: 3rem;
-    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-    text-decoration: none;
-    transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
-  
-  .button-5:hover,
-  .button-5:focus {
-    background-color: #fa4300;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
 
-  .top-text {
-    background-color: #fa6400;
-    padding: 40px;
-    color: white;
-  }
+.button-5:hover,
+.button-5:focus {
+  background-color: #fa4300;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
 
-  .top-text h1{
-    font-size: 35px;
-  }
+.top-text {
+  background-color: #fa6400;
+  padding: 40px;
+  color: white;
+}
 
-  .top-text h3{
-    font-weight: lighter;
-    line-height: 30px;
-  }
+.top-text h1 {
+  font-size: 35px;
+}
 
-  .rectangular-bar {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  .bar-button {
-    background-color: rgb(62, 86, 218);
-    color: #ffffff;
-    border: none;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-  }
+.top-text h3 {
+  font-weight: lighter;
+  line-height: 30px;
+}
 
-  .bar-button:hover {
-    background-color: rgb(63,81,181);
-  }
+.rectangular-bar {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  .bar-button:focus {
-    outline: none;
-    background-color: rgb(18, 35, 128);
-  }
+.bar-button {
+  background-color: rgb(62, 86, 218);
+  color: #ffffff;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  .menu-list {
-    background-color: #f9f9f9;
-    max-width: 70%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 4px 4px 16px 0px rgba(0,0,0,0.2);
-  }
+.bar-button:hover {
+  background-color: rgb(63, 81, 181);
+}
 
-  .food-item {
-    font-size: 20px;
-    padding: 20px;
-    border-bottom : 1px solid lightgray;
-  }
+.bar-button:focus {
+  outline: none;
+  background-color: rgb(18, 35, 128);
+}
 
-  .food-item i {
-    position: relative;
-    font-size: 30px;
-    float: right;
-    color: #fa6400;
-    margin-top: -25px;
-    margin-right: 20px;
-  }
+.menu-list {
+  background-color: #f9f9f9;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.2);
+}
 
-  .nutri-info {
-    display: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+.food-item {
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
 
-  .nutri-info p {
-    color: rgb(98, 97, 97);
-    font-size: 17px;
-  }
+.food-item i {
+  position: relative;
+  font-size: 30px;
+  float: right;
+  color: #fa6400;
+  margin-top: -25px;
+  margin-right: 20px;
+}
 
-  .number-input {
-    text-align: center;
-  }
-  
-  .number-input input {
-    height: 30px;
-    width: 60px;
-    text-align: center;
-  }
-  
-  .number-input button {
-    height: 33px;
-    background-color: #fa6400;
-    border: none;
-    color: white;
-    width: 30px;
-  }
+.nutri-info {
+  display: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
-  .number-input button:focus,
-  .number-input button:hover {
-    background-color: #fa4300;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  }
+.nutri-info p {
+  color: rgb(98, 97, 97);
+  font-size: 17px;
+}
 
-  /* Chrome, Safari, Edge, Opera */
+.number-input {
+  text-align: center;
+}
+
+.number-input input {
+  height: 30px;
+  width: 60px;
+  text-align: center;
+}
+
+.number-input button {
+  height: 33px;
+  background-color: #fa6400;
+  border: none;
+  color: white;
+  width: 30px;
+}
+
+.number-input button:focus,
+.number-input button:hover {
+  background-color: #fa4300;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -318,7 +317,7 @@ input::-webkit-inner-spin-button {
 .track-button {
   margin: auto;
   padding-top: 20px;
-  text-align:  center;
+  text-align: center;
 }
 
 .track-button i {
@@ -327,35 +326,34 @@ input::-webkit-inner-spin-button {
   margin: auto;
 }
 
-  .menu-subcat {
-    font-size: 20px;
-    padding: 20px;
-    border-bottom : 1px solid lightgray;
-    color: rgb(63,81,181);
-    font-weight: bold;
-  }
-  #custom-alert {
-    position: fixed;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f2f2f2;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  } 
-  .go-to-track {
-    position: fixed;
-    top: 90%;
-    right: 5%;
-  } 
-
+.menu-subcat {
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  color: rgb(63, 81, 181);
+  font-weight: bold;
+}
+#custom-alert {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.go-to-track {
+  position: fixed;
+  top: 90%;
+  right: 5%;
+}
 
 .container {
-    max-width: 80%;
-    margin: auto;
-    padding-bottom: 50px;
+  max-width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
 }
 
 .heading {
@@ -367,8 +365,8 @@ input::-webkit-inner-spin-button {
 
 .counter-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Display as 4 columns on big screens */
-  grid-gap: 10px; /* Adjust the gap between items as needed */
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
 .counter {
@@ -390,7 +388,10 @@ input::-webkit-inner-spin-button {
 /* Responsive styles for medium screens */
 @media screen and (max-width: 768px) {
   .counter-container {
-    grid-template-columns: repeat(2, 1fr); /* Display as 2 columns on medium screens */
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Display as 2 columns on medium screens */
   }
 }
 
@@ -403,11 +404,10 @@ input::-webkit-inner-spin-button {
 }
 
 .footer {
-    left: 0;
-    bottom: 0;
-    background-color: #f9f9f9;
-    padding: 30px;
-    text-align: center;
-    color: black;
+  left: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  padding: 30px;
+  text-align: center;
+  color: black;
 }
-  
